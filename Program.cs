@@ -19,8 +19,7 @@
             // degisken_turu degisken_adi = deger;   yada    degisken-turu degisken_adi;
             // camelCase.    kabab-case.    
 
-            // string name;
-            // name = "Muhammed";
+            // string name = "Muhammed";
             // Console.WriteLine(name);
 
             // string customerName;
@@ -85,28 +84,31 @@
             Console.WriteLine("-----------------------------------------------");
             Console.WriteLine();
 
-            int burgerCount;
-            int pizzaCount;
-            int friesCount;
-            int waterCount;
-            int lemonadeCount;
-            int cokeCount;
+            int burgerCount = 3;
+            int pizzaCount = 3;
+            int friesCount = 3;
+            int waterCount = 1;
+            int lemonadeCount = 0;
+            int cokeCount = 0;
 
-            burgerCount = 3;
-            pizzaCount = 3;
-            friesCount = 3;
-            waterCount = 1;
-            lemonadeCount = 0;
-            cokeCount = 0;
-	    
             int totalBurgerPrice = burgerPrice * burgerCount;
-            int totalPizzaPrice = burgerPrice * burgerCount;
-	    int totalFriesPrice = friesPrice * friesCount
-            int totalWaterPrice = waterPrice * waterCount
-	    int totalLemonadePrice = lemonadePrice * lemonadeCount
-	    int totalCokePrice = cokePrice * cokeCount
-	    int totalPrice;
-            totalPrice = (burgerCount * burgerPrice) + (pizzaCount * pizzaPrice) + (friesCount * friesPrice) + (waterCount * waterPrice) + (lemonadeCount * lemonadePrice) + (cokeCount * cokePrice);
+            int totalPizzaPrice = pizzaPrice * pizzaCount;
+	        int totalFriesPrice = friesPrice * friesCount;
+            int totalWaterPrice = waterPrice * waterCount;
+	        int totalLemonadePrice = lemonadePrice * lemonadeCount;
+	        int totalCokePrice = cokePrice * cokeCount;
+	        int totalPrice = totalBurgerPrice + totalPizzaPrice + totalFriesPrice + totalWaterPrice + totalLemonadePrice + totalCokePrice;
+
+            Console.WriteLine("***** RECEIPT *****");
+            Console.WriteLine("***********************************************");
+            Console.WriteLine("Burger Price: " + totalBurgerPrice + " TL");
+            Console.WriteLine("Pizza Price: " + totalPizzaPrice + " TL");
+            Console.WriteLine("Fries Price: " + totalFriesPrice + " TL");
+            Console.WriteLine("Water Price: " + totalWaterPrice + " TL");
+            Console.WriteLine("Lemonade Price: " + totalLemonadePrice + " TL");
+            Console.WriteLine("Coke Price: " + totalCokePrice + " TL");
+            Console.WriteLine("----- Total Price to Pay: " + totalPrice + " TL");
+            Console.WriteLine("***********************************************");
 
             #endregion
 

@@ -12,3 +12,4 @@
 /Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.pdb
 /Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.genruntimeconfig.cache
 /Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/ref/csharp-alistirma.dll
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.sourcelink.json
