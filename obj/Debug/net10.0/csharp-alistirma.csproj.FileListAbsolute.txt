@@ -1,0 +1,14 @@
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/bin/Debug/net10.0/csharp-alistirma
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/bin/Debug/net10.0/csharp-alistirma.deps.json
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/bin/Debug/net10.0/csharp-alistirma.runtimeconfig.json
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/bin/Debug/net10.0/csharp-alistirma.dll
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/bin/Debug/net10.0/csharp-alistirma.pdb
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.AssemblyInfoInputs.cache
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.AssemblyInfo.cs
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.csproj.CoreCompileInputs.cache
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.dll
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/refint/csharp-alistirma.dll
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.pdb
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/csharp-alistirma.genruntimeconfig.cache
+/Users/muhammedoguz/Developer/CSharp-Alistirma/csharp-alistirma/obj/Debug/net10.0/ref/csharp-alistirma.dll
