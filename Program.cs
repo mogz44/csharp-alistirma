@@ -98,11 +98,14 @@
             waterCount = 1;
             lemonadeCount = 0;
             cokeCount = 0;
-
+	    
             int totalBurgerPrice = burgerPrice * burgerCount;
             int totalPizzaPrice = burgerPrice * burgerCount;
-
-            int totalPrice;
+	    int totalFriesPrice = friesPrice * friesCount
+            int totalWaterPrice = waterPrice * waterCount
+	    int totalLemonadePrice = lemonadePrice * lemonadeCount
+	    int totalCokePrice = cokePrice * cokeCount
+	    int totalPrice;
             totalPrice = (burgerCount * burgerPrice) + (pizzaCount * pizzaPrice) + (friesCount * friesPrice) + (waterCount * waterPrice) + (lemonadeCount * lemonadePrice) + (cokeCount * cokePrice);
 
             #endregion
