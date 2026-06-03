@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharp-alistirma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f66e1dccaf114c5589d60d878ffe9ab60e3d9c47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eae308083c0820b5fa830f8eb407f1e1c30257a")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharp-alistirma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharp-alistirma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
