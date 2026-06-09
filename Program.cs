@@ -256,7 +256,117 @@
             // Console.WriteLine($"Ortalamanız: {result:0.00}");
 
             #endregion
+
+            #region Klavyeden Karakter Girişleri
+
+            // Console.Write("Cinsiyet Seçiniz[E/K]: ");
+            // char gender = char.Parse(Console.ReadLine());
+
+            // Console.WriteLine($"Seçtiğiniz Cinsiyet: {gender}");
+
+            #endregion
+
+            #region If Else
+
+            // Console.Write("Lütfen şifreyi giriniz: ");
+            // string passwd = Console.ReadLine()!;
+            // if (passwd == "abcd")
+            // {
+            //     Console.WriteLine("Şifre Doğru!");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Şifre Yanlış...");
+            // }
+
+
+            // string country, capital;
+
+            // Console.Write("Lütfen Ülkeyi Giriniz: ");
+            // country = Console.ReadLine()!;
+
+            // Console.Write("Lütfen Başkenti Giriniz: ");
+            // capital = Console.ReadLine()!;
+
+            // if (country == "Türkiye" & capital == "Ankara")
+            // {
+            //     Console.WriteLine("Veriler Doğrulandı!");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Veriler Doğrulanamadı...");
+            // }
+
+
+            // double exam1, exam2, exam3, average;
+            // string result;
+
+            // Console.Write("Sınav 1: ");
+            // exam1 = double.Parse(Console.ReadLine()!);
+            // Console.Write("Sınav 2: ");
+            // exam2 = double.Parse(Console.ReadLine()!);
+            // Console.Write("Sınav 3: ");
+            // exam3 = double.Parse(Console.ReadLine()!);
+            // average = (exam1 + exam2 + exam3) / 3;
+
+            // if (average >= 0 & average < 45)
+            // {
+            //     result = "Dersten kaldınız";
+            //     Console.WriteLine($"Sınav Ortalamanız: {average:0.00}");
+            //     Console.WriteLine($"Sınav Sonucunuz: {result}");
+            // }
+            // else if (average > 46 & average < 80)
+            // {
+            //     result = "Dersten geçtiniz, ancak puanınız çok da iyi değil";
+            //     Console.WriteLine($"Sınav Ortalamanız: {average:0.00}");
+            //     Console.WriteLine($"Sınav Sonucunuz: {result}");
+            // }
+            // else if (average > 81 & average <= 100)
+            // {
+            //     result = "Dersten yüksek bir puan ile geçtiniz";
+            //     Console.WriteLine($"Sınav Ortalamanız: {average:0.00}");
+            //     Console.WriteLine($"Sınav Sonucunuz: {result}");
+            // }
+            // else
+            // {
+            //     result = "Sonuç yok, geçersiz değerler girilmiş";
+            //     Console.WriteLine($"Sınav Ortalamanız: {average:0.00}");
+            //     Console.WriteLine($"Sınav Sonucunuz: {result}");
+            // }
+
+
+            // Console.Write("Yaşadığınız Şehri Giriniz: ");
+            // string city = Console.ReadLine()!;
+
+            // if (city == "Söğüt" | city == "İstanbul" | city == "Bursa" | city == "Edirne")
+            // {
+            //     Console.WriteLine("Yaşadığınız Şehir Osmanlı İmparatorluğunun Payitahtlarından Biriydi.");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Yaşadığınız Şehir Osmanlı İmparatorluğunun Payitahtlarından Biri Değildi");
+            // }
+
+
+            // string username, passwd;
+            // Console.Write("Kullanıcı Adınızı Giriniz: ");
+            // username = Console.ReadLine()!;
+            // Console.Write("Şifrenizi Giriniz: ");
+            // passwd = Console.ReadLine()!;
+
+            // if (username == "admin" & passwd == "admin")
+            // {
+            //     Console.WriteLine("Hoşgeldiniz Sayın Admin.");
+            // }
+            // else
+            // {
+            //     Console.WriteLine($"Hoşgeldiniz, {username}.");
+            // }
+
+            #endregion
+
             
+
             Console.ReadLine();
         }
     }
