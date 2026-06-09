@@ -238,23 +238,25 @@
 
             #region Klavyeden Ondalıklı Sayı İşlemleri
 
-            double exam1, exam2, exam3, result;
 
-            Console.Write("1. Sınav notunuzu giriniz: ");
-            exam1 = double.Parse(Console.ReadLine());
+            // double exam1, exam2, exam3, result;
 
-            Console.Write("2. Sınav notunuzu giriniz: ");
-            exam2 = double.Parse(Console.ReadLine());
+            // Console.Write("1. Sınav notunuzu giriniz: ");
+            // exam1 = double.Parse(Console.ReadLine());
 
-            Console.Write("3. Sınav notunuzu giriniz: ");
-            exam3 = double.Parse(Console.ReadLine());
+            // Console.Write("2. Sınav notunuzu giriniz: ");
+            // exam2 = double.Parse(Console.ReadLine());
 
-            result = (exam1 + exam2 + exam3) /3;
+            // Console.Write("3. Sınav notunuzu giriniz: ");
+            // exam3 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("***** Sonuç *****");
-            Console.WriteLine($"Ortalamanız: {result:0.00}");
+            // result = (exam1 + exam2 + exam3) /3;
+
+            // Console.WriteLine("***** Sonuç *****");
+            // Console.WriteLine($"Ortalamanız: {result:0.00}");
 
             #endregion
+            
             Console.ReadLine();
         }
     }
