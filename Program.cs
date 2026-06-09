@@ -93,11 +93,11 @@
 
             // int totalBurgerPrice = burgerPrice * burgerCount;
             // int totalPizzaPrice = pizzaPrice * pizzaCount;
-	        // int totalFriesPrice = friesPrice * friesCount;
+            // int totalFriesPrice = friesPrice * friesCount;
             // int totalWaterPrice = waterPrice * waterCount;
-	        // int totalLemonadePrice = lemonadePrice * lemonadeCount;
-	        // int totalCokePrice = cokePrice * cokeCount;
-	        // int totalPrice = totalBurgerPrice + totalPizzaPrice + totalFriesPrice + totalWaterPrice + totalLemonadePrice + totalCokePrice;
+            // int totalLemonadePrice = lemonadePrice * lemonadeCount;
+            // int totalCokePrice = cokePrice * cokeCount;
+            // int totalPrice = totalBurgerPrice + totalPizzaPrice + totalFriesPrice + totalWaterPrice + totalLemonadePrice + totalCokePrice;
 
             // Console.WriteLine("***** Fatura *****");
             // Console.WriteLine("***********************************************");
@@ -170,37 +170,69 @@
 
             #region Klavyeden Veri Girişleri - String Değişkenler
 
-            string passengerName, passengerSurname, passengerCity, passengerDistrict, passengerIdNumber, passengerAge;
+            // string passengerName, passengerSurname, passengerCity, passengerDistrict, passengerIdNumber, passengerAge;
 
-            Console.WriteLine("***** CSharp Hava Yolları - Yolcu Kayıt *****");
-            Console.WriteLine("*********************************************");
+            // Console.WriteLine("***** CSharp Hava Yolları - Yolcu Kayıt *****");
+            // Console.WriteLine("*********************************************");
 
-            Console.Write("Yolcu Adı: ");
-            passengerName = Console.ReadLine()!;
+            // Console.Write("Yolcu Adı: ");
+            // passengerName = Console.ReadLine()!;
 
-            Console.Write("Yolcu Soyadı: ");
-            passengerSurname = Console.ReadLine()!;
+            // Console.Write("Yolcu Soyadı: ");
+            // passengerSurname = Console.ReadLine()!;
 
-            Console.Write("Yolcu İkamet Ettiği Şehir: ");
-            passengerCity = Console.ReadLine()!;
+            // Console.Write("Yolcu İkamet Ettiği Şehir: ");
+            // passengerCity = Console.ReadLine()!;
 
-            Console.Write("Yolcu İkamet Ettiği İlçe: ");
-            passengerDistrict = Console.ReadLine()!;
+            // Console.Write("Yolcu İkamet Ettiği İlçe: ");
+            // passengerDistrict = Console.ReadLine()!;
 
-            Console.Write("Yolcu Kimlik No: ");
-            passengerIdNumber = Console.ReadLine()!;
+            // Console.Write("Yolcu Kimlik No: ");
+            // passengerIdNumber = Console.ReadLine()!;
 
-            Console.Write("Yolcu Yaşı: ");
-            passengerAge = Console.ReadLine()!;
+            // Console.Write("Yolcu Yaşı: ");
+            // passengerAge = Console.ReadLine()!;
 
-            Console.WriteLine("*********************************************");
+            // Console.WriteLine("*********************************************");
+            // Console.WriteLine();
+            // Console.WriteLine("---------------- Yolcu Kartı ----------------");
+            // Console.WriteLine($"Yolcu Ad Soyad: {passengerName} {passengerSurname}");
+            // Console.WriteLine($"Yolcu İkametgah: {passengerDistrict}/{passengerCity}");
+            // Console.WriteLine($"Yolcu Kimlik Numarası: {passengerIdNumber}");
+            // Console.WriteLine($"Yolcu Yaşı: {passengerAge}");
+            // Console.WriteLine("---------------------------------------------");
+
+            #endregion
+
+            #region Klavyeden Tam Sayı Girişleri ve Dönüşümler
+
+            int shoePrice, computerPrice, tvPrice, chairPrice;
+            shoePrice = 1000;
+            computerPrice = 20000;
+            tvPrice = 12000;
+            chairPrice = 5000;
+
+            int shoeCount, computerCount, tvCount, chairCount;
+
+            Console.WriteLine("-------------------------- Sipariş --------------------------");
+            Console.Write("Lütfen satın almak istediğiniz ayakkabı sayısını giriniz: ");
+            shoeCount = int.Parse(Console.ReadLine());
+
+            Console.Write("Lütfen satın almak istediğiniz bilgisayar sayısını giriniz: ");
+            computerCount = int.Parse(Console.ReadLine());
+
+            Console.Write("Lütfen satın almak istediğiniz televizyon sayısını giriniz: ");
+            tvCount = int.Parse(Console.ReadLine());
+
+            Console.Write("Lütfen satın almak istediğiniz koltuk sayısını giriniz: ");
+            chairCount = int.Parse(Console.ReadLine());
+            Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine();
-            Console.WriteLine("---------------- Yolcu Kartı ----------------");
-            Console.WriteLine($"Yolcu Ad Soyad: {passengerName} {passengerSurname}");
-            Console.WriteLine($"Yolcu İkametgah: {passengerDistrict}/{passengerCity}");
-            Console.WriteLine($"Yolcu Kimlik Numarası: {passengerIdNumber}");
-            Console.WriteLine($"Yolcu Yaşı: {passengerAge}");
-            Console.WriteLine("---------------------------------------------");
+
+            int totalPrice = shoePrice * shoeCount + computerPrice * computerCount + tvPrice * tvCount + chairPrice * chairCount;
+
+            Console.WriteLine("************************** Fatura **************************");
+            Console.WriteLine($"Toplam Ödemeniz: {totalPrice} TL");
 
             #endregion
 
