@@ -117,47 +117,90 @@
             // double number = 4.85;
             // Console.WriteLine(number);
 
-            double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
-            applePrice = 14.85;
-            orangePrice = 20.95;
-            strawberryPrice = 45;
-            potatoPrice = 9.75;
-            tomatoPrice = 6.50;
+            // double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
+            // applePrice = 14.85;
+            // orangePrice = 20.95;
+            // strawberryPrice = 45;
+            // potatoPrice = 9.75;
+            // tomatoPrice = 6.50;
 
-            double appleGram, orangeGram, strawberryGram, potatoGram, tomatoGram;
-            appleGram = 1.245;
-            orangeGram = 0.957;
-            strawberryGram = 1.584;
-            potatoGram = 2.758;
-            tomatoGram = 2.452;
+            // double appleGram, orangeGram, strawberryGram, potatoGram, tomatoGram;
+            // appleGram = 1.245;
+            // orangeGram = 0.957;
+            // strawberryGram = 1.584;
+            // potatoGram = 2.758;
+            // tomatoGram = 2.452;
 
-            double appleTotalPrice, orangeTotalPrice, strawberryTotalPrice, potatoTotalPrice, tomatoTotalPrice;
-            appleTotalPrice = applePrice * appleGram;
-            orangeTotalPrice = orangePrice * orangeGram;
-            strawberryTotalPrice = strawberryPrice * strawberryGram;
-            potatoTotalPrice = potatoPrice * potatoGram;
-            tomatoTotalPrice = tomatoPrice * tomatoGram;
+            // double appleTotalPrice, orangeTotalPrice, strawberryTotalPrice, potatoTotalPrice, tomatoTotalPrice;
+            // appleTotalPrice = applePrice * appleGram;
+            // orangeTotalPrice = orangePrice * orangeGram;
+            // strawberryTotalPrice = strawberryPrice * strawberryGram;
+            // potatoTotalPrice = potatoPrice * potatoGram;
+            // tomatoTotalPrice = tomatoPrice * tomatoGram;
 
-            double totalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
+            // double totalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
 
-            Console.WriteLine("***** Fiyat Listesi *****");
-            Console.WriteLine("------------------------------------------------");
-            Console.WriteLine($"--- Elma Kg Fiyatı: {applePrice:0.00} TL");       
-            Console.WriteLine($"--- Portakal Kg Fiyatı: {orangePrice:0.00} TL");       
-            Console.WriteLine($"--- Çilek Kg Fiyatı: {strawberryPrice:0.00} TL");       
-            Console.WriteLine($"--- Patates Kg Fiyatı: {potatoPrice:0.00} TL");       
-            Console.WriteLine($"--- Domates Kg Fiyatı: {tomatoPrice:0.00} TL");  
-            Console.WriteLine("------------------------------------------------");
+            // Console.WriteLine("***** Fiyat Listesi *****");
+            // Console.WriteLine("------------------------------------------------");
+            // Console.WriteLine($"--- Elma Kg Fiyatı: {applePrice:0.00} TL");       
+            // Console.WriteLine($"--- Portakal Kg Fiyatı: {orangePrice:0.00} TL");       
+            // Console.WriteLine($"--- Çilek Kg Fiyatı: {strawberryPrice:0.00} TL");       
+            // Console.WriteLine($"--- Patates Kg Fiyatı: {potatoPrice:0.00} TL");       
+            // Console.WriteLine($"--- Domates Kg Fiyatı: {tomatoPrice:0.00} TL");  
+            // Console.WriteLine("------------------------------------------------");
+            // Console.WriteLine();
+            // Console.WriteLine("***** Fatura *****");
+            // Console.WriteLine($"Satın Aldığınız Elma({appleGram} Gr) Fiyatı: {appleTotalPrice:0.00} TL");       
+            // Console.WriteLine($"Satın Aldığınız Portakal({orangeGram} Gr) Fiyatı: {orangeTotalPrice:0.00} TL");       
+            // Console.WriteLine($"Satın Aldığınız Çilek({strawberryGram} Gr) Fiyatı: {strawberryTotalPrice:0.00} TL");       
+            // Console.WriteLine($"Satın Aldığınız Patates({potatoGram} Gr) Fiyatı: {potatoTotalPrice:0.00} TL");       
+            // Console.WriteLine($"Satın Aldığınız Domates({tomatoGram} Gr) Fiyatı: {tomatoTotalPrice:0.00} TL");
+            // Console.WriteLine($"--- Toplam Ödeyeceğiniz Tutar: {totalPrice:0.00} TL");
+
+            #endregion
+
+            #region Char Değişkenler
+
+            //Şifreli Cümle: TOPLANTI SAAT 20.00'DE
+
+            // char symbol = 'a';           //Şimdilik bu kadar. not: char değişkeni " ile değil ' ile atanır
+            // Console.WriteLine(symbol);
+
+            #endregion
+
+            #region Klavyeden Veri Girişleri - String Değişkenler
+
+            string passengerName, passengerSurname, passengerCity, passengerDistrict, passengerIdNumber, passengerAge;
+
+            Console.WriteLine("***** CSharp Hava Yolları - Yolcu Kayıt *****");
+            Console.WriteLine("*********************************************");
+
+            Console.Write("Yolcu Adı: ");
+            passengerName = Console.ReadLine()!;
+
+            Console.Write("Yolcu Soyadı: ");
+            passengerSurname = Console.ReadLine()!;
+
+            Console.Write("Yolcu İkamet Ettiği Şehir: ");
+            passengerCity = Console.ReadLine()!;
+
+            Console.Write("Yolcu İkamet Ettiği İlçe: ");
+            passengerDistrict = Console.ReadLine()!;
+
+            Console.Write("Yolcu Kimlik No: ");
+            passengerIdNumber = Console.ReadLine()!;
+
+            Console.Write("Yolcu Yaşı: ");
+            passengerAge = Console.ReadLine()!;
+
+            Console.WriteLine("*********************************************");
             Console.WriteLine();
-            Console.WriteLine("***** Fatura *****");
-            Console.WriteLine($"Satın Aldığınız Elma({appleGram} Gr) Fiyatı: {appleTotalPrice:0.00} TL");       
-            Console.WriteLine($"Satın Aldığınız Portakal({orangeGram} Gr) Fiyatı: {orangeTotalPrice:0.00} TL");       
-            Console.WriteLine($"Satın Aldığınız Çilek({strawberryGram} Gr) Fiyatı: {strawberryTotalPrice:0.00} TL");       
-            Console.WriteLine($"Satın Aldığınız Patates({potatoGram} Gr) Fiyatı: {potatoTotalPrice:0.00} TL");       
-            Console.WriteLine($"Satın Aldığınız Domates({tomatoGram} Gr) Fiyatı: {tomatoTotalPrice:0.00} TL");
-            Console.WriteLine($"--- Toplam Ödeyeceğiniz Tutar: {totalPrice:0.00} TL");
-
-
+            Console.WriteLine("---------------- Yolcu Kartı ----------------");
+            Console.WriteLine($"Yolcu Ad Soyad: {passengerName} {passengerSurname}");
+            Console.WriteLine($"Yolcu İkametgah: {passengerDistrict}/{passengerCity}");
+            Console.WriteLine($"Yolcu Kimlik Numarası: {passengerIdNumber}");
+            Console.WriteLine($"Yolcu Yaşı: {passengerAge}");
+            Console.WriteLine("---------------------------------------------");
 
             #endregion
 
