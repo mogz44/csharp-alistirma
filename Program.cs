@@ -206,36 +206,55 @@
 
             #region Klavyeden Tam Sayı Girişleri ve Dönüşümler
 
-            int shoePrice, computerPrice, tvPrice, chairPrice;
-            shoePrice = 1000;
-            computerPrice = 20000;
-            tvPrice = 12000;
-            chairPrice = 5000;
+            // int shoePrice, computerPrice, tvPrice, chairPrice;
+            // shoePrice = 1000;
+            // computerPrice = 20000;
+            // tvPrice = 12000;
+            // chairPrice = 5000;
 
-            int shoeCount, computerCount, tvCount, chairCount;
+            // int shoeCount, computerCount, tvCount, chairCount;
 
-            Console.WriteLine("-------------------------- Sipariş --------------------------");
-            Console.Write("Lütfen satın almak istediğiniz ayakkabı sayısını giriniz: ");
-            shoeCount = int.Parse(Console.ReadLine());
+            // Console.WriteLine("-------------------------- Sipariş --------------------------");
+            // Console.Write("Lütfen satın almak istediğiniz ayakkabı sayısını giriniz: ");
+            // shoeCount = int.Parse(Console.ReadLine());
 
-            Console.Write("Lütfen satın almak istediğiniz bilgisayar sayısını giriniz: ");
-            computerCount = int.Parse(Console.ReadLine());
+            // Console.Write("Lütfen satın almak istediğiniz bilgisayar sayısını giriniz: ");
+            // computerCount = int.Parse(Console.ReadLine());
 
-            Console.Write("Lütfen satın almak istediğiniz televizyon sayısını giriniz: ");
-            tvCount = int.Parse(Console.ReadLine());
+            // Console.Write("Lütfen satın almak istediğiniz televizyon sayısını giriniz: ");
+            // tvCount = int.Parse(Console.ReadLine());
 
-            Console.Write("Lütfen satın almak istediğiniz koltuk sayısını giriniz: ");
-            chairCount = int.Parse(Console.ReadLine());
-            Console.WriteLine("-------------------------------------------------------------");
-            Console.WriteLine();
+            // Console.Write("Lütfen satın almak istediğiniz koltuk sayısını giriniz: ");
+            // chairCount = int.Parse(Console.ReadLine());
+            // Console.WriteLine("-------------------------------------------------------------");
+            // Console.WriteLine();
 
-            int totalPrice = shoePrice * shoeCount + computerPrice * computerCount + tvPrice * tvCount + chairPrice * chairCount;
+            // int totalPrice = shoePrice * shoeCount + computerPrice * computerCount + tvPrice * tvCount + chairPrice * chairCount;
 
-            Console.WriteLine("************************** Fatura **************************");
-            Console.WriteLine($"Toplam Ödemeniz: {totalPrice} TL");
+            // Console.WriteLine("************************** Fatura **************************");
+            // Console.WriteLine($"Toplam Ödemeniz: {totalPrice} TL");
 
             #endregion
 
+            #region Klavyeden Ondalıklı Sayı İşlemleri
+
+            double exam1, exam2, exam3, result;
+
+            Console.Write("1. Sınav notunuzu giriniz: ");
+            exam1 = double.Parse(Console.ReadLine());
+
+            Console.Write("2. Sınav notunuzu giriniz: ");
+            exam2 = double.Parse(Console.ReadLine());
+
+            Console.Write("3. Sınav notunuzu giriniz: ");
+            exam3 = double.Parse(Console.ReadLine());
+
+            result = (exam1 + exam2 + exam3) /3;
+
+            Console.WriteLine("***** Sonuç *****");
+            Console.WriteLine($"Ortalamanız: {result:0.00}");
+
+            #endregion
             Console.ReadLine();
         }
     }
