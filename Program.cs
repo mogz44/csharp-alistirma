@@ -426,6 +426,24 @@ namespace CSharpAlistirma
 
             #endregion
 
+            #region Örnek Proje Uygulamaları
+
+            Console.WriteLine("**** C# Eğitim Kampı Restoran *****");
+            Console.WriteLine();
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("1- Ana Yemekler");
+            Console.WriteLine("2- Çorbalar");
+            Console.WriteLine("3- Pizzalar");
+            Console.WriteLine("4- İçecekler");
+            Console.WriteLine("5- Tatlılar");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine();
+            Console.Write("Lütfen Seçiminizi Yapınız: ");
+            string selection = Console.ReadLine()!;
+
+
+            #endregion
+
             Console.ReadLine();
         }
     }
