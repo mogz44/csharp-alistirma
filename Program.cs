@@ -1,4 +1,6 @@
-﻿namespace CSharpAlistirma
+﻿using System.Linq.Expressions;
+
+namespace CSharpAlistirma
 {
     internal class Program
     {
@@ -365,7 +367,64 @@
 
             #endregion
 
-            
+            #region Mod İşlemleri
+
+            // int number = 26;
+            // int result = number % 5;
+            // Console.WriteLine(result);
+
+
+            // Console.Write("1. Sayıyı Giriniz: ");
+            // int number1 = int.Parse(Console.ReadLine()!);
+
+            // Console.Write("2. Sayıyı Giriniz: ");
+            // int number2 = int.Parse(Console.ReadLine());
+
+            // int result = number1 % number2;
+            // Console.WriteLine($"1. Sayının 2. Sayıya bölümünden kalanı: {result}");
+
+
+            // Console.Write("Lütfen Sayıyı Giriniz: ");
+            // int number = int.Parse(Console.ReadLine()!);
+
+            // if (number % 2 == 0)
+            // {
+            //     Console.WriteLine("Girdiğiniz sayı çift");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Girdiğiniz sayı tek");
+            // }
+
+            #endregion
+
+            #region Char Değişkenler ile Karar Yapıları
+
+            // Console.Write("Takımın sembolünü giriniz: ");
+            // char symbol = char.Parse(Console.ReadLine()!);
+
+            // if (symbol == 'g' | symbol == 'G')
+            // {
+            //     Console.WriteLine("Galatasaray");
+            // }
+            // else if (symbol == 'f' | symbol == 'F')
+            // {
+            //     Console.WriteLine("Fenerbahçe");
+            // }
+            // else if (symbol == 'b' | symbol == 'B')
+            // {
+            //     Console.WriteLine("Beşiktaş");
+            // }
+            // else if (symbol == 't' | symbol == 'T')
+            // {
+            //     Console.WriteLine("Trabzonspor");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Girdiğiniz Takım Geçersiz");
+            // }
+
+            #endregion
 
             Console.ReadLine();
         }
