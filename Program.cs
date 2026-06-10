@@ -441,7 +441,66 @@ namespace CSharpAlistirma
             Console.Write("Lütfen Seçiminizi Yapınız: ");
             string selection = Console.ReadLine()!;
 
-
+            if (selection == "1")
+            {
+                Console.WriteLine();
+                Console.WriteLine("------------ Ana Yemekler ----------");
+                Console.WriteLine();
+                Console.WriteLine("1- Köri Soslu Tavuk");
+                Console.WriteLine("2- Pilav Üstü Tavuk Sote");
+                Console.WriteLine("3- Kızartma Tabağı");
+                Console.WriteLine("4- Karışık Izgara");
+                Console.WriteLine("5- Kuru Fasulye");
+            }
+            else if (selection == "2")
+            {
+                Console.WriteLine();
+                Console.WriteLine("-------------- Çorbalar ------------");
+                Console.WriteLine();
+                Console.WriteLine("1- Ezogelin Çorbası");
+                Console.WriteLine("2- Mercimek Çorbası");
+                Console.WriteLine("3- İşkembe Çorbası");
+                Console.WriteLine("4- Ayran Çorbası");
+                Console.WriteLine("5- Düğün Çorbası");
+            }
+            else if (selection == "3")
+            {
+                Console.WriteLine();
+                Console.WriteLine("-------------- Pizzalar ------------");
+                Console.WriteLine();
+                Console.WriteLine("1- Margaritha");
+                Console.WriteLine("2- Akdeniz Pizza");
+                Console.WriteLine("3- Tavuklu Pizza");
+            }
+            else if (selection == "4")
+            {
+                Console.WriteLine();
+                Console.WriteLine("------------- İçecekler ------------");
+                Console.WriteLine();
+                Console.WriteLine("1- Su");
+                Console.WriteLine("2- Çay");
+                Console.WriteLine("3- Kahve");
+                Console.WriteLine("4- Limonata");
+                Console.WriteLine("5- Ayran");
+            }
+            else if (selection == "5")
+            {
+                Console.WriteLine();
+                Console.WriteLine("------------- Tatlılar -------------");
+                Console.WriteLine();
+                Console.WriteLine("1- Soğuk Baklava");
+                Console.WriteLine("2- Sıcak Baklava");
+                Console.WriteLine("3- Kadayıf");
+                Console.WriteLine("4- Künefe");
+                Console.WriteLine("5- Şekerpare");
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                Console.WriteLine("!!!       Geçersiz Seçim        !!!");
+                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
             #endregion
 
             Console.ReadLine();
