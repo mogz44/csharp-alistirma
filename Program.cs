@@ -635,12 +635,41 @@ namespace CSharpAlistirma
 
             #region For Döngüsü Örnek Proje
 
-            int bacterium = 1;
-            for (int i = 1; i <= 24; i++)
+            // int bacterium = 1;
+            // for (int i = 1; i <= 24; i++)
+            // {
+            //     bacterium *= 2;
+            //     Console.WriteLine($"{i}. Saatin Sonunda Bakteri Sayısı: {bacterium}");
+            // }
+
+            #endregion
+
+            #region While Döngüsü
+
+            // int i = 1;
+            // while (i <= 10)
+            // {
+            //     Console.WriteLine("Merhaba Dünya"); i++;
+            // }
+
+            // int i = 1;
+            // while (i <= 10)
+            // {
+            //     if (i % 3 == 0)
+            //     {
+            //         Console.WriteLine(i);
+            //     }
+            //     i++;
+            // }
+
+            int i = 1;
+            int sum = 0;
+            while (i <= 10)
             {
-                bacterium *= 2;
-                Console.WriteLine($"{i}. Saatin Sonunda Bakteri Sayısı: {bacterium}");
+                sum += i; i++;
+
             }
+            Console.WriteLine(sum);
 
             #endregion
 
