@@ -662,14 +662,36 @@ namespace CSharpAlistirma
             //     i++;
             // }
 
-            int i = 1;
-            int sum = 0;
-            while (i <= 10)
-            {
-                sum += i; i++;
+            // int i = 1;
+            // int sum = 0;
+            // while (i <= 10)
+            // {
+            //     sum += i; i++;
 
-            }
-            Console.WriteLine(sum);
+            // }
+            // Console.WriteLine(sum);
+
+            #endregion
+
+            #region Örnek Sınav Sorusu
+
+            //Klavyeden girilen 3 basamaklı sayının basamakları toplamını hesaplayan kodu yazınız.
+
+            Console.Write("Sayıyı Giriniz: ");
+            int number = int.Parse(Console.ReadLine()!);
+            int ones, tens, hundreds, sum;
+
+            hundreds = number / 100;
+            tens = (number % 100) / 10;
+            ones = number % 10;
+            sum = hundreds + tens + ones;
+
+            Console.WriteLine();
+            Console.WriteLine($" Yüzler Basamağı: {hundreds}");
+            Console.WriteLine($" Onlar Basamağı: {tens}");
+            Console.WriteLine($" Birler Basamağı: {ones}");
+            Console.WriteLine($" --------------------------- ");
+            Console.WriteLine($" Basamaklar Toplamı: {sum}");
 
             #endregion
 
