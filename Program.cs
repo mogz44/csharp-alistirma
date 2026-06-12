@@ -621,15 +621,26 @@ namespace CSharpAlistirma
             // Console.WriteLine("-----");
             // Console.WriteLine($"Toplam: {totalValue}");
 
-            int count = 0;
-            for (int i = 1; i <= 50; i++)
+            // int count = 0;
+            // for (int i = 1; i <= 50; i++)
+            // {
+            //     if (i % 7 == 0)
+            //     {
+            //         count++;
+            //     }
+            // }
+            // Console.WriteLine(count);
+
+            #endregion
+
+            #region For Döngüsü Örnek Proje
+
+            int bacterium = 1;
+            for (int i = 1; i <= 24; i++)
             {
-                if (i % 7 == 0)
-                {
-                    count++;
-                }
+                bacterium *= 2;
+                Console.WriteLine($"{i}. Saatin Sonunda Bakteri Sayısı: {bacterium}");
             }
-            Console.WriteLine(count);
 
             #endregion
 
