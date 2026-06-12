@@ -530,44 +530,109 @@ namespace CSharpAlistirma
 
             #region Switch-Case Hesap Makinesi
 
-            int number1, number2, result;
-            char symbol;
+            // int number1, number2, result;
+            // char symbol;
 
-            Console.Write("1. Sayıyı Giriniz: ");
-            number1 = int.Parse(Console.ReadLine());
+            // Console.Write("1. Sayıyı Giriniz: ");
+            // number1 = int.Parse(Console.ReadLine());
 
-            Console.Write("2. Sayıyı Giriniz: ");
-            number2 = int.Parse(Console.ReadLine());
+            // Console.Write("2. Sayıyı Giriniz: ");
+            // number2 = int.Parse(Console.ReadLine());
 
-            Console.Write("Sembolü Giriniz: ");
-            symbol = char.Parse(Console.ReadLine());
+            // Console.Write("Sembolü Giriniz: ");
+            // symbol = char.Parse(Console.ReadLine());
 
-            switch (symbol)
-            {
-                case '+':
-                    result = number1 + number2;
-                    Console.WriteLine($"Sonuç: {result}");
-                    break;
-                case '-':
-                    result = number1 - number2;
-                    Console.WriteLine($"Sonuç: {result}");
-                    break;
-                case '*':
-                    result = number1 * number2;
-                    Console.WriteLine($"Sonuç: {result}");
-                    break;
-                case '/':
-                    result = number1 / number2;
-                    Console.WriteLine($"Sonuç: {result}");
-                    break;
-                case '%':
-                    result = number1 % number2;
-                    Console.WriteLine($"Sonuç: {result}");
-                    break;
-                default: Console.WriteLine("Geçersiz İşlem."); break;
-            }
+            // switch (symbol)
+            // {
+            //     case '+':
+            //         result = number1 + number2;
+            //         Console.WriteLine($"Sonuç: {result}");
+            //         break;
+            //     case '-':
+            //         result = number1 - number2;
+            //         Console.WriteLine($"Sonuç: {result}");
+            //         break;
+            //     case '*':
+            //         result = number1 * number2;
+            //         Console.WriteLine($"Sonuç: {result}");
+            //         break;
+            //     case '/':
+            //         result = number1 / number2;
+            //         Console.WriteLine($"Sonuç: {result}");
+            //         break;
+            //     case '%':
+            //         result = number1 % number2;
+            //         Console.WriteLine($"Sonuç: {result}");
+            //         break;
+            //     default: Console.WriteLine("Geçersiz İşlem."); break;
+            // }
 
             #endregion
+
+            #region For Döngüsü
+
+            //for(x;y;z)
+            // x: başlangıç, y: bitiş, z: artış
+
+            // for (int i = 1; i <= 5; i++) {
+            //     Console.WriteLine("C# Eğitim Kampı");
+            // }
+
+            // for (int i = 3; i <= 51; i+=3)
+            // {
+            //     Console.WriteLine(i);
+            // }
+
+            // Console.Write("Ekrana yazılmasını istediğiniz adedi giriniz: ");
+            // int adet = int.Parse(Console.ReadLine()!);
+            // for (int i = 0; i < adet; i++)
+            // {
+            //     Console.WriteLine("Yaşasın Şeriat!");
+            // }
+
+            #endregion
+
+            #region For Döngüsü ile Karar Yapıları
+
+            // for (int i = 0; i <= 100; i++)
+            // {
+            //     if (i % 5 == 0)
+            //     {
+            //         Console.WriteLine(i);
+            //     }
+            // }
+
+            // int totalValue = 0;
+            // for (int i = 0; i <= 10; i++)
+            // {
+            //     totalValue += i;
+            // }
+            // Console.WriteLine(totalValue);
+
+            // int totalValue = 0;
+            // for (int i = 1; i <= 20; i++)
+            // {
+            //     if (i % 2 == 0)
+            //     {
+            //         totalValue += i;
+            //         Console.WriteLine(i);
+            //     }
+            // }
+            // Console.WriteLine("-----");
+            // Console.WriteLine($"Toplam: {totalValue}");
+
+            int count = 0;
+            for (int i = 1; i <= 50; i++)
+            {
+                if (i % 7 == 0)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+
+            #endregion
+
             Console.ReadLine();
         }
     }
